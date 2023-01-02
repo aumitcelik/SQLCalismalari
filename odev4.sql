@@ -1,3 +1,5 @@
+-- Database: dvdrental https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/
+
 -- film tablosunda bulunan replacement_cost sütununda bulunan birbirinden farklı değerleri sıralama
 SELECT DISTINCT replacement_cost FROM film;
 
