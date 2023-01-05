@@ -1,4 +1,4 @@
--- Database: dvdrental
+-- Database: dvdrental https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/
 
 -- country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile sonlananları sıralama
 SELECT country FROM country WHERE country LIKE 'A%a';
